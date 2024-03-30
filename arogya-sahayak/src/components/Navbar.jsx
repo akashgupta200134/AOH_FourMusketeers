@@ -97,7 +97,7 @@ const Navbar = () => {
                     <ul>
                       <li>
                         <a
-                          href="https://video-connect.vercel.app/"
+                          href="https://aarogya-sahayakv.vercel.app/"
                           className="block px-4 py-2 hover:bg-gray-100"
                         >
                           Video Call
