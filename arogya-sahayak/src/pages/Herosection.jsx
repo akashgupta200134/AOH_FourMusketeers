@@ -7,7 +7,7 @@ import Excellence from "../images/excellence.svg";
 import Integrity from "../images/integrity.svg";
 import Respect from "../images/respect.svg";
 import Teamwork from "../images/teamwork.svg";
-// import About from "../pages/Contact";
+ import About from "../pages/Contact";
 import Reviews from "../pages/Reviews"
 import { Link } from "react-router-dom";
 
