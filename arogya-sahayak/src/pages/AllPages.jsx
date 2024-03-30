@@ -7,6 +7,8 @@ import Pricingplans from "./Pricingplans";
 import Gallery from "./Gallery";
 import TimeTable from "./Timetable";
 
+
+
 const AllPages = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
