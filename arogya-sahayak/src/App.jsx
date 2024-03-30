@@ -38,7 +38,9 @@ import "./App.css";
 function App() {
   return (
     <div className="w-screen h-auto flex flex-col bg-primary">
+      <StateProvider reducer={reducer} initialState={initialState} >  
       <Navbar />
+      
 
       <main className="mt-14 md:mt-20 px-4 md:px-16 py-4 w-full">
         <Routes>
@@ -70,6 +72,7 @@ function App() {
           <Route path="/search" element={<SearchPatient />} />
         </Routes>
       </main>
+      </StateProvider>
 
       <Footer />
     </div>
