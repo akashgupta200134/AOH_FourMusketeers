@@ -11,7 +11,7 @@ import Services from "./pages/Services";
 import Signup from "./pages/Signup";
  import Signin from "./pages/Signin";
 import BloodBank from "./components/BloodBank";
-import ChatBot from "./pages/ChatBot";
+// import ChatBot from "./pages/ChatBot";
 import { StateProvider } from "./context/StateProvider";
 import reducer from "./context/reducer";
 import { initialState } from "./context/initialState";
@@ -48,7 +48,7 @@ function App() {
           <Route path="/doctors" element={<Doctors />} /> 
           <Route path="/appointments" element={<Appointments />} />
           <Route path="/allpages" element={<AllPages />} />
-          <Route path="/ChatBot" element={<ChatBot />} />
+          {/* <Route path="/ChatBot" element={<ChatBot />} /> */}
           <Route path="/services" element={<Services />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/signin" element={<Signin />} />

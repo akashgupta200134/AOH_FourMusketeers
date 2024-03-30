@@ -1,5 +1,5 @@
 import React from 'react'
-import ChatBot from './ChatBot';
+// import ChatBot from './ChatBot';
 
 function Services ()  {
   return (

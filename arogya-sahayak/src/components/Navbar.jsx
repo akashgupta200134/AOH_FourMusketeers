@@ -10,7 +10,7 @@ import DoctorProfile from "../pages/DoctorProfile";
 import Pricingplans from "../pages/Pricingplans";
 import Gallery from "../pages/Gallery";
 import TimeTable from "../pages/Timetable";
- import Home from "../pages/ChatBot";
+//  import Home from "../pages/ChatBot";
 import { useStateValue } from "../context/StateProvider";
 import { actionType } from "../context/reducer";
 import { useState } from "react";
@@ -103,14 +103,14 @@ const Navbar = () => {
                           Video Call
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link
                           to="/ChatBot"
                           className="block px-4 py-2 hover:bg-gray-100"
                         >
                           Chat Bot
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 )}
